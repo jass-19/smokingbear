@@ -9,6 +9,7 @@ span {
     border-radius: 15px;
 }
 
+
 .minus,
 .plus {
     background: var(--white_color);
@@ -28,6 +29,11 @@ input {
     border-radius: 4px;
     vertical-align: middle;
 }
+
+.slick-slide img {
+    float: right;
+}
+
 
 /* HOME_SECTION_eNDS  */
 
@@ -76,4 +82,10 @@ input {
     .timeline::before {
         left: 10px;
     }
+
+    .slick-slide img {
+        float: unset;
+        width: 90%;
+    }
+
 }
