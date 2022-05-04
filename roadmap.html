@@ -13,15 +13,45 @@
     <link rel="stylesheet" href="./assests/style/style.css">
     <!-- roadmap css  -->
     <link rel="stylesheet" href="./roadmap.css">
+
+    <link rel="stylesheet" href="./assests/style/slider.css">
     <title>roadmap Bears</title>
 </head>
 
 <body>
     <!-- COMPONENTS-START  -->
+    <section class="home_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 ">
+                    <div class="home_content">
+                        <h1 class="main_heading text-white"> In eget mperdiet etsit cras fermentum. </h1>
+                        <p class="para text-white pe-5 me-5">Ornare semper blandit orci quam tortor elementum et sit
+                            cras.
+                            Neque
+                            pretium metus, imperdiet
+                            ac fermentum. </p>
+                        <!-- plus-minus  -->
+                        <div class="number d-inline-block   p-1 ">
+                            <span class="minus  d-inline-block p-2">
+                                <img src="./assests/images/svg/minus.svg" alt=""></span>
+                            <input type="text" class="text-white" value="1" />
+                            <span class="plus d-inline-block p-2"> <img src="./assests/images/svg/pluss.svg"
+                                    alt=""></span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 "></div>
+
+            </div>
+        </div>
+    </section>
+
     <!-- trailer-SECTION  -->
     <section class="trailer_section position-relative py-5 mt-5">
         <img width="" src="./assests/images/png/left1.png" class="position-absolute left-0 top-0" alt="">
-        <img src="./assests/images/png/right2.png" class="position-absolute  end-0 bottom-0" alt="">
+        <img src="./assests/images/png/left-trairl.png" class="position-absolute opacity1 end-0 bottom-0" alt="">
         <div class="container">
             <h2 class="  main_heading text-white text-center">Trailer</h2>
             <div class="position-relative"><img class="w-100 mt-sm-4 py-sm-3" type="button" data-bs-toggle="modal"
@@ -48,7 +78,6 @@
             </div>
         </div>
     </section>
-
     <!-- Trailer-SECTION-ENDS -->
     <!-- ROADMAP_SECTION -->
     <section class=" position-relative py-5 ">
@@ -152,9 +181,7 @@
 
         </div>
     </section>
-
     <!-- ROADMAP_SECTION_ENDS -->
-
     <!-- COMPONENTS-END  -->
 
     <!-- Optional JavaScript; choose one of the two! -->
@@ -170,7 +197,26 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
    <!-- =====JQUERY-LINK==== -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
+    <!-- plus-minus  -->
+    <script>
+        $(document).ready(function () {
+            $('.minus').click(function () {
+                var $input = $(this).parent().find('input');
+                var count = parseInt($input.val()) - 1;
+                count = count < 1 ? 1 : count;
+                $input.val(count);
+                $input.change();
+                return false;
+            });
+            $('.plus').click(function () {
+                var $input = $(this).parent().find('input');
+                $input.val(parseInt($input.val()) + 1);
+                $input.change();
+                return
+                false;
+            });
+        });
+    </script>
 </body>
 
 </html>
