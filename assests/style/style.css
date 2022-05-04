@@ -167,10 +167,7 @@ body {
 /* NAVBAR-STARTS  */
 
 
-.navbar-wrapper .navbar-btns button:hover {
-    background-color: transparent;
-    color: #0ED145;
-}
+
 
 .navbar-wrapper .navbar-btns button:hover .cmmg-soon {
     display: inline-block;
@@ -521,8 +518,11 @@ body {
 .conect_btn {
     border: none;
     outline: none;
+    background: #FFFFFF;
+    border-radius: 79px;
+    Padding: 16px, 40px;
 
-    background: var(--btn_bg_color);
+
 }
 
 .conect_btn:hover {
