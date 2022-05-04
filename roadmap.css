@@ -3,12 +3,10 @@ span {
     cursor: pointer;
 }
 
-
 .number {
     border: 2px solid var(--white_color);
     border-radius: 15px;
 }
-
 
 .minus,
 .plus {

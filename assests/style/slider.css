@@ -40,5 +40,6 @@
 }
 
 .footer_line {
-    border: 1px solid #FFFFFF;
+    /* border: 1px solid #FFFFFF; */
+    border-top: 1px solid var(--white_color);
 }
