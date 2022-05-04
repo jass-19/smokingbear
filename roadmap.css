@@ -34,6 +34,9 @@ input {
     float: right;
 }
 
+.slick-slide {
+    float: right !important;
+}
 
 /* HOME_SECTION_eNDS  */
 
