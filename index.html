@@ -11,98 +11,10 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- ---------------css-links----------------- -->
     <link rel="stylesheet" href="./assests/style/style.css">
-    <title>Smoking Bear</title>
+    <title>Smoking</title>
 </head>
 
 <body>
-    <!-- COMPONENTS-START  -->
-    <!-- MAIN-SECTION  -->
-    <section class="main_section">
-        <!-- NAVBAR-START  -->
-        <main class="main-top-section py-3 mb-3  mb-md-5">
-
-            <nav class="navbar-wrapper shadow-white d-flex ">
-                <div id="overlay">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div
-                                    class="left d-flex justify-content-center text-center flex-column align-items-center">
-                                    <ul class="list-unstyled">
-                                        <li class="py-3 overflow-hidden">
-                                            <span class="d-inline-block section-1">
-                                                <a href="#name1-section" class="overlay-links">Home</a>
-                                            </span>
-                                        </li>
-                                        <li class="py-3 overflow-hidden">
-                                            <span class="d-inline-block section-2">
-                                                <a href="#name2-section" class="overlay-links ">About</a>
-                                            </span>
-                                        </li>
-                                        <li class="py-3 overflow-hidden">
-                                            <span class="d-inline-block section-3">
-                                                <a href="#name3-section" class="overlay-links">Nft</a>
-                                            </span>
-                                        </li>
-                                        <li class="py-3 overflow-hidden">
-                                            <span class="d-inline-block section-4">
-                                                <a href="#name4-section" class="overlay-links">Roadmap</a>
-                                            </span>
-                                        </li>
-                                        <li class="py-3 overflow-hidden">
-                                            <span class="d-inline-block section-5">
-                                                <a href="#name5-section" class="overlay-links">Team</a>
-                                            </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="d-flex align-items-center justify-content-between">
-                        <div class="nav-items-wrap me-auto d-none d-lg-block">
-                            <ul class="nav-items-list list-unstyled align-items-center d-flex m-auto">
-                                <li class="n-item px-3 px-xxl-4">
-                                    <a href="#name1-section">Home</a>
-                                </li>
-                                <li class="n-item px-3 px-xxl-4">
-                                    <a aria-current="page" href="#name2-section">About</a>
-                                </li>
-                                <li class="n-item px-3 px-xxl-4">
-                                    <a href="#name3-section">Trailer</a>
-                                </li>
-                                <li class="n-item px-3 px-xxl-4">
-                                    <a href="#name4-section">Nft</a>
-                                </li>
-                                <li class="n-item px-3 px-xxl-4">
-                                    <a href="#name5-section">Roadmap</a>
-                                </li>
-                                <li class="n-item px-3 px-xxl-4">
-                                    <a href="#name6-section">Team</a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <button class="conect_btn button_text py-2 px-3 "> Connect Wallet</button>
-                        <!-- Toggle Button nav -->
-                        <div id="main-menu" class="hamburger-menu d-inline-block d-lg-none">
-                            <span class="first"></span>
-                            <span class="sec"></span>
-                            <span class="third"></span>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-
-        </main>
-        <!-- NAVBAR-ENDS  -->
-    </section>
-    <!-- MAIN-SECTION-ENDS -->
-
-
-    <!-- COMPONENTS-END  -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -115,81 +27,9 @@
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-   <!-- =====JQUERY-LINK==== -->
+    <! JQUERY LINK -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>
-        // HAMBURGER TOGGLER
-        $(".hamburger-menu").on("click", function () {
-            $(".hamburger-menu").toggleClass("animate");
-            $("#overlay").toggleClass("overlay-active");
-            $(".main-top-section").toggleClass("mobile-view");
-            $("body").toggleClass("fix-screen-mobile");
-            $(".hero-background").toggleClass("overflow-initial");
-        });
-        $(document).ready(function () {
-            const Section1 = document.querySelector("#name1-section");
-            const Section2 = document.querySelector("#name2-section");
-            const Section3 = document.querySelector("#name3-section");
-            const Section4 = document.querySelector("#name4-section");
-            const Section5 = document.querySelector("#name5-section");
-            const Section6 = document.querySelector("#name6-section");
-            // const mainMenu = document.querySelector(" #main-menu ");
-            // SECTION-1 SCROLL
-            $(".section-1").click(function () {
-                // mainMenu.click();
-                $(".hamburger-menu").removeClass("animate");
-                $("#overlay").removeClass("overlay-active");
-                $(".main-top-section").removeClass("mobile-view");
-                $("body").removeClass("fix-screen-mobile");
-                Section1.scrollIntoView();
-            });
-            // SECTION-2 SCROLL
-            $(".section-2").click(function () {
-                // mainMenu.click();
-                $(".hamburger-menu").removeClass("animate");
-                $("#overlay").removeClass("overlay-active");
-                $(".main-top-section").removeClass("mobile-view");
-                $("body").removeClass("fix-screen-mobile");
-                Section2.scrollIntoView();
-            });
-            // SECTION-3 SCROLL
-            $(".section-3").click(function () {
-                // mainMenu.click();
-                $(".hamburger-menu").removeClass("animate");
-                $("#overlay").removeClass("overlay-active");
-                $(".main-top-section").removeClass("mobile-view");
-                $("body").removeClass("fix-screen-mobile");
-                Section3.scrollIntoView();
-            });
-            // SECTION-4 SCROLL
-            $(".section-4").click(function () {
-                // mainMenu.click();
-                $(".hamburger-menu").removeClass("animate");
-                $("#overlay").removeClass("overlay-active");
-                $(".main-top-section").removeClass("mobile-view");
-                $("body").removeClass("fix-screen-mobile");
-                Section4.scrollIntoView();
-            });
-            // SECTION-5 SCROLL
-            $(".section-5").click(function () {
-                // mainMenu.click();
-                $(".hamburger-menu").removeClass("animate");
-                $("#overlay").removeClass("overlay-active");
-                $(".main-top-section").removeClass("mobile-view");
-                $("body").removeClass("fix-screen-mobile");
-                Section5.scrollIntoView();
-            });
-            // SECTION-6 SCROLL
-            $(".section-6").click(function () {
-                // mainMenu.click();
-                $(".hamburger-menu").removeClass("animate");
-                $("#overlay").removeClass("overlay-active");
-                $(".main-top-section").removeClass("mobile-view");
-                $("body").removeClass("fix-screen-mobile");
-                Section6.scrollIntoView();
-            });
-        });
-    </script>
+
 </body>
 
 </html>
