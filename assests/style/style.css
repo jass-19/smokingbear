@@ -7,9 +7,14 @@
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: "rock";
+    src: url(../fonts/rock.otf);
+}
+
 body {
     font-family: 'Balsamiq Sans', cursive;
-    background-color: var(--black_color);
+    background-color: var(--grey_color);
 }
 
 .no-scroll-x {
@@ -40,6 +45,7 @@ body {
     /* ROOT-COLORS */
     --white_color: #fff;
     --black_color: #000;
+    --grey_color: #1e1e1e;
 
 
 }
@@ -114,6 +120,35 @@ body {
     }
 }
 
+/* COMMON CLASS  */
+.para {
+    font-size: var(--font-sm);
+    font-weight: var(--fw-400);
+}
+
+.main_herading {
+    font-size: var(--font-xxxl);
+    font-family: "rock";
+    font-weight: var(--fw-400);
+}
+
+.button_text {
+    font-weight: var(--fw-400);
+    font-size: var(--font-lg);
+    font-family: "rock";
+}
+
+.sub_heading {
+    font-weight: var(--fw-400);
+    font-size: var(--font-xl);
+}
+
+.team_title_heading {
+    font-weight: var(--fw-700);
+    font-size: var(--font-md);
+}
+
+/* COMMON CLASS ENDS  */
 /* MAIN_SECTION  */
 /* MAIN_SECTION_END  */
 /* NAVBAR-STARTS  */
@@ -152,7 +187,7 @@ body {
     height: 2px;
     left: 50%;
     position: absolute;
-    background: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    background: var(--white_color);
     -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
