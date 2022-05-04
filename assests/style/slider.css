@@ -22,3 +22,23 @@
 .team_image:hover {
     transform: scale(1.05);
 }
+
+/* FOOTER-SECTION */
+.footer_section {
+    background-image: url("../images/png/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.footer_icon {
+    transition: 0.3s all ease-in;
+}
+
+.footer_icon:hover {
+    transform: scale(1.05);
+}
+
+.footer_line {
+    border: 1px solid #FFFFFF;
+}
