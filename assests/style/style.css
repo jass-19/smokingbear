@@ -124,7 +124,7 @@ body {
 .para {
     font-size: var(--font-sm);
     font-weight: var(--fw-400);
-    font-family: "rock";
+
 }
 
 .main_heading {
