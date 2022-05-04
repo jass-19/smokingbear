@@ -133,15 +133,27 @@ body {
     font-weight: var(--fw-400);
 }
 
-.button_text {
+.button {
     font-weight: var(--fw-400);
     font-size: var(--font-lg);
     font-family: "rock";
+    background: var(--white_color);
+    border-radius: 79px;
+    border: 1px solid transparent;
+}
+
+.button:hover {
+    border: 1px solid var(--white_color);
+    background: transparent;
+    color: var(--white_color);
+    transition: all 0.3s ease-in-out;
+
 }
 
 .sub_heading {
     font-weight: var(--fw-400);
     font-size: var(--font-xl);
+    font-family: "rock";
 }
 
 .team_title_heading {
