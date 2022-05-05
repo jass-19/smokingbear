@@ -13,21 +13,91 @@
     <link rel="stylesheet" href="./assests/style/style.css">
     <!-- roadmap css  -->
     <link rel="stylesheet" href="./roadmap.css">
+
+    <link rel="stylesheet" href="./assests/style/slider.css">
+    <!-- slick  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>roadmap Bears</title>
 </head>
 
 <body>
     <!-- COMPONENTS-START  -->
-    <!-- trailer-SECTION  -->
-    <section class="trailer_section pt-5 mt-5">
+    <section class="home_section">
         <div class="container">
-            <h1 class="  main_heading text-white text-center">Trailer</h1>
-            <div class="position-relative"><img class="w-100 mt-4" type="button" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal" src="./assets/image/vidio img.png" alt="">
+            <div class="row">
+                <div class="col-12 col-md-6 m-auto ">
+                    <div class="home_content ">
+                        <h1 class="main_heading text-white"> In eget mperdiet etsit cras fermentum. </h1>
+                        <p class="para text-white my-3 pe-5 me-5">Ornare semper blandit orci quam tortor elementum et
+                            sit
+                            cras.
+                            Neque
+                            pretium metus, imperdiet
+                            ac fermentum. </p>
+                        <!-- plus-minus  -->
+                        <div class="number d-inline-block  my-4 p-1 ">
+                            <span class="minus  d-inline-block p-2">
+                                <img src="./assests/images/svg/minus.svg" alt=""></span>
+                            <input type="text" class="text-white text-center border-0 d-inline-block " value="1" />
+                            <span class="plus d-inline-block p-2"> <img src="./assests/images/svg/pluss.svg"
+                                    alt=""></span>
+                        </div>
+                        <button class="button py-2 mt-2 d-block px-5">Mint Now </button>
+                        <div class="counters d-flex mt-3 ">
+                            <div>
+                                <h4 class="text-white sub_heading"> 10,000</h4>
+                                <p class="para text-white"> Total Supply</p>
+                            </div>
+                            <div class="mx-3 mx-sm-5 ">
+                                <h4 class="text-white  sub_heading"> 1ETH</h4>
+                                <p class="para text-white"> Mint Price</p>
+                            </div>
+                            <div>
+                                <h4 class="text-white text-center sub_heading"> 10,000</h4>
+                                <p class="para text-white"> Remaining Supply</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-3 my-lg-0 ">
+                    <div class=" text-end multiple-items ">
+                        <div class="p-1 ms-4 ms-lg-0">
+                            <img src=" ./assests/images/png/hometeddy.png" alt="">
+                        </div>
+                        <div class="p-1 ms-4 ms-lg-0">
+                            <img src="./assests/images/png/hometeddy.png" alt="">
+                        </div>
+                        <div class="p-1 ms-4 ms-lg-0 ">
+                            <img src="./assests/images/png/hometeddy.png" alt="">
+                        </div>
+                        <div class=" p-1 ms-4 ms-lg-0">
+                            <img src="./assests/images/png/hometeddy.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- trailer-SECTION  -->
+    <section class="trailer_section position-relative py-5 mt-sm-5">
+        <img width="" src="./assests/images/png/left1.png" class="position-absolute left-0 top-0" alt="">
+        <!-- <img src="./assests/images/png/rightnew.png" class="position-absolute opacit1 end-0 bottom-0" alt=""> -->
+        <img src="./assests/images/png/left-trairl.png" class="position-absolute opacity1 end-0 bottom-0" alt="">
+        <div class="container">
+            <h2 class="  main_heading text-white text-center">Trailer</h2>
+            <div class="position-relative"><img class="w-100 mt-sm-4 py-sm-3" type="button" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal" src="./assests/images/png/trailer.png" alt="">
                 <div
                     class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center">
-                    <img class="mb-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                        src="./assets/image/play icon.png" alt="">
+                    <img width="75" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        src="./assests/images/svg/play.svg" alt="">
                 </div>
             </div>
             <!-- Modal -->
@@ -46,10 +116,110 @@
             </div>
         </div>
     </section>
-
     <!-- Trailer-SECTION-ENDS -->
+    <!-- ROADMAP_SECTION -->
+    <section class=" position-relative  ">
+        <img width="" src="./assests/images/png/left1.png" class="position-absolute left-0 top-0" alt="">
+        <img src="./assests/images/png/road-right.png" class="position-absolute  end-0 bottom-0" alt="">
+        <div class="container">
+            <h2 class="  main_heading text-white text-center">Roadmap</h2>
+            <div class="px-lg-5 mx-lg-5 timeline  position-relative">
+                <div class="row mt-3">
+                    <div class="col-auto z-index">
+                        <span class="circle text-center m-auto d-block"></span>
+                    </div>
+                    <div class="col-10 ">
+                        <div class="content  mx-md-5">
+                            <p class="para text-white p-lg-4 px-3 py-sm-5 py-4">Feugiat felis, egestas cursus et ut
+                                lacus
+                                viverra.
+                                Rhoncus
+                                ornare
+                                tortor sociis vulputate
+                                arcu pellentesque eu ornare tempus. Et mi arcu quam tellus feugiat quisque urna velit.
+                                Orci
+                                pellentesque augue rhoncus pretium. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-auto z-index ">
+                        <span class="circle d-block"></span>
+                    </div>
+                    <div class="col-10 ">
+                        <div class="content  mx-md-5">
+                            <p class="para text-white p-lg-4 px-3 py-sm-5 py-4">Adipiscing vehicula dui sollicitudin
+                                venenatis.
+                                A feugiat
+                                iaculis
+                                amet magna. Odio elementum, purus egestas convallis et vulputate. Dictumst vitae nulla
+                                aliquam, vivamus nunc. Volutpat nunc non platea mauris sem dui scelerisque. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-auto z-index">
+                        <span class="circle d-block"></span>
+                    </div>
+                    <div class="col-10 ">
+                        <div class="content  mx-md-5">
+                            <p class="para text-white p-lg-4 px-3 py-sm-5 py-4">Condimentum tristique sit pretium ipsum.
+                                Et
+                                egestas venenatis
+                                consectetur ornare ipsum elementum nulla imperdiet imperdiet. Dictum adipiscing at at
+                                leo
+                                at. Odio libero at tincidunt viverra nunc condimentum quam. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-auto z-index">
+                        <span class="circle d-block"></span>
+                    </div>
+                    <div class="col-10 ">
+                        <div class="content mx-md-5">
+                            <p class="para text-white p-lg-4 px-3 py-sm-5 py-4">Tempus lectus posuere gravida faucibus
+                                nulla
+                                convallis nam
+                                leo
+                                fusce. Gravida imperdiet molestie tellus malesuada faucibus lacus pretium penatibus
+                                malesuada. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-auto z-index">
+                        <span class="circle d-block"></span>
+                    </div>
+                    <div class="col-10 ">
+                        <div class="content  mx-md-5">
+                            <p class="para text-white  p-lg-4 px-3 py-sm-5 py-4">Feugiat ultrices id morbi etiam
+                                facilisis nibh
+                                vitae. Mattis
+                                lacus, magna mattis sit dignissim congue. Adipiscing at porta habitasse nullam. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-auto z-index">
+                        <span class="circle d-block"></span>
+                    </div>
+                    <div class="col-10 ">
+                        <div class="content mx-md-5">
+                            <p class="para text-white p-lg-4 px-3 py-sm-5 py-4">Purus vel commodo ultrices eget massa
+                                iaculis
+                                amet,
+                                parturient.
+                                Mauris velit, nisl quis cras tortor. Hendrerit quam faucibus hendrerit eget arcu donec
+                                vestibulum. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-
+        </div>
+    </section>
+    <!-- ROADMAP_SECTION_ENDS -->
     <!-- COMPONENTS-END  -->
 
     <!-- Optional JavaScript; choose one of the two! -->
@@ -63,8 +233,84 @@
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-   <!-- =====JQUERY-LINK==== -->
+   <! =====JQUERY-LINK==== -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- slick-links  -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <!-- plus-minus  -->
+    <script>
+        $(document).ready(function () {
+            $('.minus').click(function () {
+                var $input = $(this).parent().find('input');
+                var count = parseInt($input.val()) - 1;
+                count = count < 1 ? 1 : count;
+                $input.val(count);
+                $input.change();
+                return false;
+            });
+            $('.plus').click(function () {
+                var $input = $(this).parent().find('input');
+                $input.val(parseInt($input.val()) + 1);
+                $input.change();
+                return
+                false;
+            });
+        });
+        //  carosel 
+        $('.multiple-items').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true,
+                        arrows: false,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true,
+                        arrows: false,
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: false,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
 
 </body>
 
