@@ -723,12 +723,17 @@ input {
     }
 
     .about_image {
-        width: 90%;
+        width: 90% !important;
     }
 }
 
-/* @media(max-width:991px) {
+@media(max-width:568px) {
     .about_image {
-        width: 90%;
+        width: 80% !important;
+
     }
-} */
+
+    .footer_logo {
+        width: 40% !important;
+    }
+}
