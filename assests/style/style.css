@@ -165,7 +165,7 @@ body {
 /* MAIN_SECTION  */
 
 .main_section {
-    background-image: url(../images/png/Smoking\ Bears.png);
+    background-image: url("../images/png/Smoking\ Bears.png");
     background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;
