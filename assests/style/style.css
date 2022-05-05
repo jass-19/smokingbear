@@ -172,6 +172,10 @@ body {
 
 }
 
+.header_logo {
+    width: 30% !important;
+}
+
 /* MAIN_SECTION_END  */
 /* NAVBAR-STARTS  */
 .navbar-wrapper .navbar-btns button:hover .cmmg-soon {
@@ -646,16 +650,6 @@ input {
     z-index: 1;
 }
 
-@media(max-width:992px) {
-    .timeline::before {
-        left: 10px;
-    }
-
-    .slick-slide img {
-        float: unset;
-        width: 90%;
-    }
-}
 
 /* ROADMAP-ENDS  */
 /* ABOUT-SECTION */
@@ -725,6 +719,10 @@ input {
     .about_image {
         width: 90% !important;
     }
+
+    .header_logo {
+        width: 60% !important;
+    }
 }
 
 @media(max-width:568px) {
@@ -734,5 +732,9 @@ input {
 
     .footer_logo {
         width: 40% !important;
+    }
+
+    .header_logo {
+        width: 100% !important;
     }
 }
